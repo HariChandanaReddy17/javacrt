@@ -1,0 +1,14 @@
+import java.util.*;
+class Substring{
+public static void main(String[] args){
+Scanner s=new Scanner(System.in);
+String s1="java is simple language";
+String s2="simple language";
+if(s1.contains(s2)){
+System.out.println("substring");
+}
+else{
+System.out.println(" not a substring");
+}
+}
+}
